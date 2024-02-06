@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+ 
+.mycontent{
+    margin:0 auto;
+    width: 760px;
+}
+ 
+.mycontentindex{
+    margin: 0 auto;
+    width: 760px;
+}
+.mycontent p{
+    margin: 2em;
+}
+ 
+.topimg{
+    width: 100%;
+    background-color: #2a6495;
+    margin: 0;
+    padding: 0;
+}
+ 
+.navbar {
+    list-style-type: none;
+    justify-content: flex-start;
+    background-color: rgb(190, 190, 190);
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+ 
+.navbar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    
+}
+ 
+.navbar button {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    background-color: rgb(190, 190, 190);
+    padding: 15px 20px;
+    margin-right: 5px;
+    border: 1px solid black;
+    height: 10px;
+    color: black;
+    text-align: left;
+    
+}
+
+.navbar button:hover {
+    background-color:#8f8f90;
+    padding: 15px 20px;
+    border: 1px solid #000;
+    color: white;
+}
+
+
+.navbar button:hover,
+.navbar button:hover a {
+    color: white; /* Change the text color to white when hovered */
+}
+
+
+
+ .brainimg img {
+
+    width:1500px;
+    margin: 0 auto;
+
+ }
+ .brainimg {
+    text-align: center; /* Horizontally center the content */
+}
+ 
